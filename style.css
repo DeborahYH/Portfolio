@@ -50,3 +50,19 @@ a {
     color: black;
     text-decoration: none;
 }
+
+section {
+    display: flex;
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10em;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    height: 80vh;
+} 
