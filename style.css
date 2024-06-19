@@ -12,6 +12,7 @@ html {
 
 body {
     font-family: "Mulish", sans-serif;
+    margin: 0;
 }
 
 nav, .nav-links {
@@ -53,16 +54,33 @@ a {
 
 section {
     display: flex;
-    padding-top: 4vh;
+    padding-top: 5vh;
     height: 96vh;
     margin: 0 10em;
     box-sizing: border-box;
     min-height: fit-content;
 }
 
-#profile {
+.intro {
     display: flex;
-    justify-content: center;
-    gap: 5em;
-    height: 80vh;
-} 
+    justify-content: space-between;
+    padding: 20px;
+    width: 55%;
+    margin: auto;
+}
+
+.intro-info {
+    font-size: 1.7em;
+}
+
+.button {
+    
+}
+
+#social {
+    font-size: 0.7em;
+}
+
+.intro img{
+    height: 270px;
+}
