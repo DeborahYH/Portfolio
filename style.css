@@ -71,14 +71,58 @@ section {
 
 .intro-info {
     font-size: 1.7em;
+    line-height: 2em;
+}
+
+.intro-info h3, p {
+    text-align: center;
+    color: rgb(65, 65, 65);
+}
+
+.intro-info h1 {
+    text-align: center;
 }
 
 .button {
-    
+    display: inline-flex;
+    height: 50px;
+    padding: 0px;
+    margin-right: 15px;
+    margin-left: 0px;
+    background: #467559;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    cursor: pointer;
 }
 
-#social {
-    font-size: 0.7em;
+.button:hover {
+    background: #39644b;
+}
+
+.button:active {
+    background: #254935;
+}
+
+.button__text, .button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 10px;
+    color: #ffffff;
+    height: 100%;
+}
+
+.button__text{
+    width: 80px;
+}
+
+.button__icon {
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 .intro img{
