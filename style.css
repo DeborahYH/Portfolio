@@ -140,14 +140,10 @@ a {
 #about {
     display: block;
     font-family: "Mulish", sans-serif;
-
-}
-
-#about h1 {
-    text-align: center;
 }
 
 .title {
+    text-align: center;
     font-size: 2.5em;
 }
 
@@ -193,4 +189,50 @@ a {
     font-size: 1.2em;
     text-align: justify;
     padding: 10px 130px;
+}
+
+
+/* SKILLS SECTION */
+
+#skills {
+    display: block;
+    font-family: "Mulish", sans-serif;
+}
+
+.skills-box {
+    border-style: solid;
+    border-color: #3e4939;
+    border-width: 1px;
+    width: 350px;
+    height: 450px;
+    margin: 50px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.skills-box img {
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.skills-box h3 {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.skill p {
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-lvl {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
