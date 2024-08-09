@@ -216,7 +216,6 @@ a {
     margin-top: 10px;
 }
 
-
 .skills-box h3 {
     padding: 10px 15px;
     text-align: center;
@@ -286,3 +285,53 @@ a {
     padding: 5px 10px;
     margin: 110px;
 }
+
+
+/* CONTACT SECTION */
+
+#contact {
+    display: block;
+    font-family: "Mulish", sans-serif;
+}
+
+.contact-box {
+    display: flex;
+    border-style: solid;
+    border-color: #3e4939;
+    border-width: 1px;
+    width: 700px;
+    height: 150px;
+    margin: 20px 50px;
+    border-radius: 30px;
+    text-align: justify;
+}
+
+.contact {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0px auto;
+}
+
+.contact a {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact a:hover {
+    cursor: default;
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1em;
+    text-decoration-color: rgb(107, 107, 107);
+}
+
+.fa-brands, .fa-solid {
+    font-size: 1.7em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
