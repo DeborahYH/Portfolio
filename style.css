@@ -236,3 +236,53 @@ a {
     margin-bottom: 15px;
     margin-left: 15px;
 }
+
+/* PROJECTS SECTION */
+
+#projects {
+    display: block;
+    font-family: "Mulish", sans-serif;
+}
+
+.project-text p {
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 50px 130px 30px 130px;
+}
+.projects-box {
+    border-style: solid;
+    border-color: #3e4939;
+    border-width: 1px;
+    width: 350px;
+    height: 540px;
+    margin: 0px 50px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.projects-box img {
+    display: block;
+    margin: 25px auto 15px;
+    border-radius: 30px;
+}
+
+.projects-box h3 {
+    text-align: center;
+}
+
+.projects-box p {
+    text-align: justify;
+    padding: 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.projects-box a {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 110px;
+}
