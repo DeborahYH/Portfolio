@@ -338,3 +338,16 @@ footer p {
     margin-right: 100px;
 }
 
+.construction-img {
+    display: flex;
+    margin: 50px auto;
+}
+
+.construction-text {
+    text-align: center;
+}
+
+.construction-text h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
