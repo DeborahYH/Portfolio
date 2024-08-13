@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    /*background: rgba(0,0,0,.1)*/
 }
 
 html {
@@ -16,12 +15,25 @@ body {
 }
 
 section {
+    position: relative;
     display: flex;
     padding-top: 5vh;
     height: 96vh;
     margin: 0 10em;
     box-sizing: border-box;
     min-height: fit-content;
+}
+
+.arrow {
+    position: absolute;
+    right: 10px;
+    bottom: 85px;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    transform: scale(1.25);
 }
 
 /* NAVIGATION BAR + FOOTER*/
@@ -181,12 +193,6 @@ footer p {
 
 .card p {
     padding: 5px 15px;
-}
-
-.icon-arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
 }
 
 .about-text p {
