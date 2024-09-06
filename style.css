@@ -89,16 +89,6 @@ footer p {
 
 /* PROFILE SECTION */
 
-.intro-OLD { /*DELETE*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    width: 55%;
-    margin: auto;
-}
-
-
 #profile {
     display: flex;
     flex-direction: column;
@@ -174,7 +164,7 @@ footer p {
 }
 
 .button__icon {
-    font-size: 1.5em;
+    font-size: 2em;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -188,6 +178,49 @@ footer p {
     .intro-info h1 {
         font-size: 1.5em;
     }
+
+    .intro-buttons {
+        flex-direction: column;
+    }
+
+    .button {
+        display: inline-flex;
+        height: 35px;
+        margin: 10px;
+        background: #467559;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        overflow: hidden;
+        font-family: 'Mulish', sans-serif;
+        font-size: 0.7em;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .button__text, .button__icon {
+        font-size: 1.5em;
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        height: 100%;
+    }
+    
+    .button__text {
+        padding-left: 15px;
+    }
+    
+    .button__icon {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .button__icon {
+        font-size: 1.7em;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
 }
 
 
