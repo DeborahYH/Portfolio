@@ -19,7 +19,6 @@ section {
     display: flex;
     padding-top: 5vh;
     height: 96vh;
-    margin: 0 10em;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -170,23 +169,29 @@ footer p {
 
 
 @media (max-width: 768px) {
-    
+
+    .intro-info {
+        line-height: 1.8em;
+    }
+
     .intro-info h3, p {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .intro-info h1 {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 
     .intro-buttons {
         flex-direction: column;
+        margin-top: 5px;
+        align-items: center;   
     }
 
     .button {
-        display: inline-flex;
         height: 35px;
-        margin: 10px;
+        width: 140px;
+        margin: 7px;
         background: #467559;
         border: none;
         outline: none;
@@ -220,7 +225,7 @@ footer p {
         font-size: 1.7em;
         background-color: rgba(0, 0, 0, 0.2);
     }
-    
+
 }
 
 
