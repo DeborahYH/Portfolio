@@ -76,6 +76,12 @@ a {
     text-decoration: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
 footer p {
     margin-bottom: 30px;
 }
@@ -83,26 +89,41 @@ footer p {
 
 /* PROFILE SECTION */
 
-.intro {
+.intro-OLD { /*DELETE*/
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 20px;
     width: 55%;
     margin: auto;
 }
 
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;
+    text-align: center;
+}
+
 .intro-info {
-    font-size: 1.7em;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 
 .intro-info h3, p {
-    text-align: center;
+    font-size: 1.7em;
     color: rgb(50, 50, 50);
 }
 
 .intro-info h1 {
-    text-align: center;
+    font-size: 2em;
+}
+
+.intro-buttons {
+    display: flex;
+    justify-content: center;
 }
 
 .button {
@@ -130,6 +151,7 @@ footer p {
 }
 
 .button__text, .button__icon {
+    font-size: 1.7em;
     display: inline-flex;
     align-items: center;
     text-align: center;
@@ -156,8 +178,16 @@ footer p {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.intro img{
-    height: 270px;
+
+@media (max-width: 768px) {
+    
+    .intro-info h3, p {
+        font-size: 1.3em;
+    }
+
+    .intro-info h1 {
+        font-size: 1.5em;
+    }
 }
 
 
@@ -202,6 +232,8 @@ footer p {
 }
 
 .card p {
+    font-size: 1.2em;
+    text-align: center;
     padding: 5px 15px;
 }
 
@@ -246,6 +278,7 @@ footer p {
 }
 
 .skill-name {
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -290,6 +323,7 @@ footer p {
 }
 
 .projects-box p {
+    font-size: 1em;
     text-align: justify;
     padding: 0px 20px;
     margin-top: 10px;
