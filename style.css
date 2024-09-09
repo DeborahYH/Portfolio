@@ -321,7 +321,7 @@ footer p {
     .card {
         width: 170px;
         height: 80px;
-        border-radius: 30px;
+        border-radius: 20px;
         margin: 20px 10px 10px;
         text-align: justify;
     }
@@ -353,37 +353,32 @@ footer p {
     justify-content: center;
 }
 
-.skills-box {
+.skills-card {
     border-style: solid;
     border-color: #3e4939;
     border-width: 1px;
     width: 300px;
-    height: 250px;
+    height: 270px;
     margin: 50px 30px;
     border-radius: 30px;
-    font-size: 1rem;
     text-align: justify;
 }
 
-.skills-box img {
+.skills-card img {
     margin: 30px 135px 0px 135px;
 }
 
-.skills-box h3 {
-    font-size: 1.2em;
+.skills-card h3 {
+    font-size: 1.5em;
     text-align: center;
     padding: 10px 15px;
 }
 
-.skill p {
+.skills-card p {
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.5em;
     text-align: justify;
     padding-left: 50px;
-}
-
-.skill-name {
-    font-size: 1em;
 }
 
 @media (max-width: 768px) {
@@ -392,37 +387,45 @@ footer p {
         flex-direction: column;
     }
 
-    .skills-box {
+    .skills-card {
         border-style: solid;
         border-color: #3e4939;
         border-width: 1px;
         width: 230px;
-        height: 180px;
+        height: 150px;
         margin: auto;
         margin-top: 15px;
-        border-radius: 30px;
+        border-radius: 20px;
         font-size: 1em;
         text-align: justify;
     }
 
-    .skills-box img {
-        width: 1.5rem;
-        margin: 20px 105px 0px 105px
+    .skills-card-title {
+        display: flex;
+        flex-direction: line;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
 
-    .skills-box h3 {
+    .skills-card-title img {
+        height: 2rem;
+        margin: 0px;
+        padding-left: 10px;
+    }
+
+    .skills-card h3 {
         font-size: 1rem;
         text-align: center;
-        padding-top: 3px;
+        padding-top: 5px;
     }
     
-    .skill p {
-        text-align: justify;
+    .skills-card p {
         font-size: 1rem;
         line-height: 1.2rem;
+        text-align: justify;
         padding-left: 30px;
     }
-
 }
 
 /* PROJECTS SECTION */
