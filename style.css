@@ -242,7 +242,7 @@ footer p {
     font-size: 2.5em;
 }
 
-.container {
+.container-about {
     display: flex;
     justify-content: center;
 }
@@ -290,17 +290,17 @@ footer p {
         font-size: 1.7em;
     }
 
-    .container {
+    .container-about {
         flex-direction: line;
         align-items: center;
     }
 
-    .container h3 {
+    .container-about h3 {
         font-size: 1rem;
         padding: 5px;
     }
 
-    .container p {
+    .container-about p {
         font-size: 1rem;
         padding: 0px;     
     }
@@ -330,8 +330,14 @@ footer p {
 /* SKILLS SECTION */
 
 #skills {
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-family: "Mulish", sans-serif;
+}
+
+.container-skills {
+    display: flex;
+    justify-content: center;
 }
 
 .skills-box {
@@ -339,43 +345,85 @@ footer p {
     border-color: #3e4939;
     border-width: 1px;
     width: 300px;
-    height: 380px;
+    height: 250px;
     margin: 50px 30px;
     border-radius: 30px;
-    font-size: 1.2em;
+    font-size: 1rem;
     text-align: justify;
 }
 
 .skills-box img {
-    margin: 30px 135px 5px 135px;
+    margin: 30px 135px 0px 135px;
 }
 
 .skills-box h3 {
-    padding: 10px 15px;
+    font-size: 1.2em;
     text-align: center;
+    padding: 10px 15px;
 }
 
 .skill p {
+    font-size: 1.2em;
+    line-height: 1.2em;
     text-align: justify;
     padding-left: 50px;
 }
 
 .skill-name {
     font-size: 1em;
-    font-weight: bold;
 }
 
-.skill-lvl {
-    font-size: 0.9em;
-    margin-bottom: 15px;
-    margin-left: 15px;
+@media (max-width: 768px) {
+
+    .container-skills {
+        flex-direction: column;
+    }
+
+    .skills-box {
+        border-style: solid;
+        border-color: #3e4939;
+        border-width: 1px;
+        width: 230px;
+        height: 180px;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 30px;
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .skills-box img {
+        width: 1.5rem;
+        margin: 20px 105px 0px 105px
+    }
+
+    .skills-box h3 {
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 3px;
+    }
+    
+    .skill p {
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        padding-left: 30px;
+    }
+
 }
 
 /* PROJECTS SECTION */
 
 #projects {
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-family: "Mulish", sans-serif;
+}
+
+.container-projects {
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
 }
 
 .project-text p {
@@ -434,8 +482,15 @@ footer p {
 /* CONTACT SECTION */
 
 #contact {
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-family: "Mulish", sans-serif;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
 }
 
 .contact-box {
