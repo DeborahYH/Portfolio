@@ -232,7 +232,8 @@ footer p {
 /* ABOUT SECTION */
 
 #about {
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-family: "Mulish", sans-serif;
 }
 
@@ -250,9 +251,9 @@ footer p {
     border-style: solid;
     border-color: #3e4939;
     border-width: 1px;
-    width: 300px;
-    height: 200px;
-    margin: 50px;
+    width: 270px;
+    height: 180px;
+    margin: 50px 30px;
     border-radius: 30px;
     font-size: 1.2em;
     text-align: justify;
@@ -265,6 +266,7 @@ footer p {
 }
 
 .card h3 {
+    font-size: 1.2em;
     padding: 10px 15px;
     text-align: center;
 }
@@ -278,9 +280,52 @@ footer p {
 .about-text p {
     font-size: 1.2em;
     text-align: justify;
-    padding: 5px 130px;
+    padding: 5px 200px;
 }
 
+@media (max-width: 768px) {
+    
+    .title {
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    .container {
+        flex-direction: line;
+        align-items: center;
+    }
+
+    .container h3 {
+        font-size: 1.1rem;
+        padding: 5px;
+    }
+
+    .container p {
+        font-size: 1.1rem;
+        padding: 0px;     
+    }
+
+    .card {
+        width: 180px;
+        height: 110px;
+        border-radius: 30px;
+        margin: 20px 10px 10px;
+        text-align: justify;
+    }
+
+    .icon {
+        width: 1.5rem;
+        display: block;
+        margin: 12px auto 0px;
+        padding: 0px;
+    }
+
+    .about-text p {
+        font-size: 1em;
+        text-align: justify;
+        padding: 5px 60px 0px;
+    }
+}
 
 /* SKILLS SECTION */
 
