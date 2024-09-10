@@ -447,7 +447,8 @@ footer p {
     text-align: justify;
     padding: 50px 130px 0px;
 }
-.projects-box {
+
+.projects-card {
     border-style: solid;
     border-color: #3e4939;
     border-width: 1px;
@@ -459,17 +460,17 @@ footer p {
     text-align: justify;
 }
 
-.projects-box img {
+.projects-card img {
     display: block;
     margin: 25px auto 15px;
     border-radius: 30px;
 }
 
-.projects-box h3 {
+.projects-card h3 {
     text-align: center;
 }
 
-.projects-box p {
+.projects-card p {
     font-size: 1em;
     text-align: justify;
     padding: 0px 20px;
@@ -477,7 +478,7 @@ footer p {
     margin-bottom: 30px;
 }
 
-.projects-box a {
+.projects-card a {
     background: #467559;
     color: #ffffff;
     border-radius: 30px;
@@ -485,13 +486,58 @@ footer p {
     margin: 100px;
 }
 
-.projects-box a:hover {
+.projects-card a:hover {
     background: #39644b;
     cursor: pointer;
 }
 
-.projects-box a:active {
+.projects-card a:active {
     background: #254935;
+}
+
+@media (max-width: 768px) {
+
+    .project-text p {
+        font-size: 1em;
+        text-align: justify;
+        padding: 5px 60px 0px;
+    }
+
+    .projects-card {
+        width: 350px;
+        height: 400px;
+        margin: 20px;
+        border-radius: 30px;
+        text-align: justify;
+    }
+
+    .projects-card img {
+        display: block;
+        width: 40vw;
+        margin: auto;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .projects-card h3 {
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 8px;
+    }
+    
+    .projects-card p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-align: justify;
+        padding-left: 30px;
+    }
+
+    .projects-card a {
+        width: 30px;
+        font-size: 0.8em;
+        border-radius: 30px;
+        padding: 10px 10px;
+        margin: 20px 47px;
+    }
 }
 
 
