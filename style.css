@@ -45,7 +45,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 8vh;
 }
 
 .logo {
@@ -63,18 +63,21 @@ nav {
     font-size: 1.8em
 }
 
-li:hover {
-    cursor: default;
-    color: rgb(100, 100, 100);
-    text-decoration: underline;
-    text-underline-offset: 1em;
-    text-decoration-color: rgb(110, 110, 110);
-}
-
 a {
     color: black;
     text-decoration: none;
+    transition: 0.7s;
 }
+
+a:hover {
+    cursor: default;
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: rgb(110, 110, 110);
+}
+
+
 
 footer {
     display: flex;
@@ -113,6 +116,7 @@ footer p {
     align-items: center;   
     height: 100vh;
     text-align: center;
+    padding: 0px;
 }
 
 .intro-info {
@@ -567,6 +571,12 @@ footer p {
     font-family: "Mulish", sans-serif;
 }
 
+.contact-text p {
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 5px 200px;
+}
+
 .container-contact {
     display: flex;
     flex-direction: line;
@@ -598,14 +608,6 @@ footer p {
     padding: 0px;
 }
 
-.contact a:hover {
-    cursor: default;
-    color: rgb(100, 100, 100);
-    text-decoration: underline;
-    text-underline-offset: 1em;
-    text-decoration-color: rgb(110, 110, 110);
-}
-
 .fa-brands, .fa-solid {
     font-size: 1.7em;
     margin-top: 40px;
@@ -613,7 +615,6 @@ footer p {
     margin-left: 100px;
     margin-right: 100px;
 }
-
 
 @media (max-width: 768px) {
 
