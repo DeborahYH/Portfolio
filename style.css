@@ -17,10 +17,8 @@ body {
 section {
     position: relative;
     display: flex;
-    padding-top: 5vh;
-    height: 96vh;
+    height: 100vh;
     box-sizing: border-box;
-    min-height: fit-content;
 }
 
 .section-text p {
@@ -34,6 +32,7 @@ section {
 .title {
     text-align: center;
     font-size: 2.5em;
+    margin-top: 5rem;
     margin-bottom: 1.2rem;
 }
 
@@ -57,6 +56,7 @@ section {
     .title {
         text-align: center;
         font-size: 1.7em;
+        margin-top: 1.7rem;
         margin-bottom: 0.3rem;
     }
 
@@ -64,6 +64,15 @@ section {
         width: 75vw;
         font-size: 1rem;
         margin: 0rem auto 0rem;
+    }
+
+    .arrow {
+        width: 1.3rem;
+        bottom: 3rem;
+    }
+
+    .arrow:hover {
+        transform: scale(1.25);
     }
 
 }
@@ -152,6 +161,7 @@ footer p {
 
 .intro-info {
     line-height: 2.5em;
+    margin-bottom: 15rem;
 }
 
 .intro-info h3, p {
@@ -213,7 +223,8 @@ footer p {
 }
 
 .profile-arrow{
-    margin-top: 35vh;
+    position: absolute;
+    bottom: 10rem;
     transition: 0.3s;
 }
 
@@ -278,6 +289,15 @@ footer p {
     .button__icon {
         font-size: 1.5rem;
         background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-arrow {
+        bottom: 7rem;
+        width: 1.3rem;
+    }
+
+    .profile-arrow:hover {
+        transform: scale(1.25);
     }
 
 }
@@ -427,7 +447,7 @@ footer p {
         border-color: #3e4939;
         border-width: 1.5px;
         width: 15rem;
-        height: 10rem;
+        height: 9rem;
         margin: 0.5rem auto;
         border-radius: 1.2rem;
         font-size: 1rem;
@@ -439,7 +459,7 @@ footer p {
         flex-direction: line;
         justify-content: center;
         margin-top: 0.2rem;
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.35rem;
     }
 
     .skills-card-title img {
@@ -528,8 +548,8 @@ footer p {
 
     .projects-card {
         width: 13rem;
-        height: 24.5rem;
-        margin: 1rem 0.8rem 1rem;
+        height: 24rem;
+        margin: 1rem 0.8rem;
         border-radius: 1.2rem;
         text-align: justify;
     }
