@@ -594,6 +594,7 @@ footer p {
 .projects-card a:hover {
     background: #39644b;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .projects-card a:active {
@@ -603,7 +604,7 @@ footer p {
 @media (max-width: 768px) {
 
     #projects {
-        height: 123vh;
+        height: 125vh;
     }
 
     .container-projects {
