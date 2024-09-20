@@ -181,10 +181,8 @@ footer p {
 
     .burger-button {
         display: block;
-        position: fixed;
-        top: 0;
-        right: 1.5rem;
-        margin-top: 0.6rem;
+        margin-left: 5rem;
+        margin-top: 0.3rem;
     }
 
     .burger-button svg {
