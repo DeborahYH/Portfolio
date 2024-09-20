@@ -409,10 +409,10 @@ footer p {
     }
 
     .card {
-        width: 10rem;
+        width: 12rem;
         height: 5rem;
         border-radius: 1.2rem;
-        margin: 1rem 0.7rem 0.5rem;
+        margin: 1rem 0.35rem 0.5rem;
         text-align: justify;
     }
 
@@ -420,7 +420,7 @@ footer p {
         display: flex;
         flex-direction: line;
         justify-content: center;
-        padding-top: 0.2rem;
+        padding-top: 0.1rem;
         padding-left: 0.7rem;
     }
 
