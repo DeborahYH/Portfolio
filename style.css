@@ -409,8 +409,8 @@ footer p {
     }
 
     .card {
-        width: 12rem;
-        height: 5rem;
+        width: 10rem;
+        height: 6rem;
         border-radius: 1.2rem;
         margin: 1rem 0.35rem 0.5rem;
         text-align: justify;
@@ -432,7 +432,7 @@ footer p {
 
     .container-about h3 {
         font-size: 1.2rem;
-        margin: 0.7rem;
+        margin: 0.5rem;
     }
 
     .container-about p {
