@@ -214,6 +214,16 @@ footer p {
         display: none;
     }
 
+    .hidden-links-lang {
+        font-size: 1rem;
+        align-content: center;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 30px;
+        padding: 0rem 0.7rem;
+        margin: 0.3rem;
+    }
+
     footer p {
         font-size: 0.8rem;
         margin-bottom: 1rem;
