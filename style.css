@@ -615,7 +615,7 @@ footer p {
     .projects-card {
         display: flex;
         flex-direction: line;
-        width: 75vw;
+        width: 80vw;
         height: 30vh;
         margin: 0.8rem auto 0.3rem;
         border-radius: 1.2rem;
@@ -669,7 +669,7 @@ footer p {
     border-style: solid;
     border-color: #3e4939;
     border-width: 1.5px;
-    width: 75vw;
+    width: 70vw;
     height: 30vw;
     margin-top: 2rem;
     border-radius: 1.8rem;
